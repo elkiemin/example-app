@@ -1,17 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/img/1.jpg": "/img/1.jpg",
-    "/img/logo.png": "/img/logo.png",
-    "/img/t1.png": "/img/t1.png",
-    "/img/t2.png": "/img/t2.png",
-    "/img/t3.png": "/img/t3.png",
-    "/img/t4.png": "/img/t4.png",
-    "/img/t5.png": "/img/t5.png",
-    "/img/t6.png": "/img/t6.png",
+    "/img/1.png": "/img/1.png",
     "/img/a1.png": "/img/a1.png",
     "/img/a2.png": "/img/a2.png",
     "/img/a3.png": "/img/a3.png",
+    "/img/logo.png": "/img/logo.png",
     "/img/o1.png": "/img/o1.png",
     "/img/o2.png": "/img/o2.png",
     "/img/o3.png": "/img/o3.png",
@@ -21,5 +15,10 @@
     "/img/s4.png": "/img/s4.png",
     "/img/s5.png": "/img/s5.png",
     "/img/s6.png": "/img/s6.png",
-    "/img/1.png": "/img/1.png"
+    "/img/t1.png": "/img/t1.png",
+    "/img/t2.png": "/img/t2.png",
+    "/img/t3.png": "/img/t3.png",
+    "/img/t4.png": "/img/t4.png",
+    "/img/t5.png": "/img/t5.png",
+    "/img/t6.png": "/img/t6.png"
 }

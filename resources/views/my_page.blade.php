@@ -9,21 +9,7 @@
 </head>
 <body class ="body-top">
 <div id ="content">
-    <header class="container-fluid">
-        <div class ="row">
-            <div class ="col-3">
-                <img id ="logo" src= "{{asset('img/logo.png')}}" alt="" width="" height="">
-            </div>
-            <nav class="nav">
-            <a class="flex-sm-fill text-sm-center nav-link" href="#Описание">Основная информация</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#Таланты">Таланты</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#Созвездие">Созвездие</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#Оружие">Оружие</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#Артефакты">Артефакты</a>
-        </nav>
-
-        </div>
-    </header>
+@include('inc.header')
 </div>
 </body>
 <body>
@@ -184,7 +170,7 @@
          <td>Лук Амоса</td>
          <td>Увеличивает урон обычной и заряженной атаки на 12%. Каждые 0.1 сек. полёта стрелы, выпущенной обычной или заряженной атакой, увеличивают её урон на 8%. Эффект может складываться до 5 раз.
          </td></tr></tbody></table>
- <h3><span class="mw-headline" id="Артефакты">Артефакты</span></h3>
+ <h4><span class="mw-headline" id="Артефакты">Артефакты</span></h4>
  <table class="wikitable tdc1 tdc2">
      <tbody><tr>
          <th>Рейтинг</th>
@@ -212,9 +198,7 @@
          <td>• Увеличивает мастерство стихий на 80 ед.
              • Увеличивает урон заряженной атаки на 35%, если персонаж использует катализатор или стрелковое оружие.
          </td></tr></tbody></table>
-<footer>
-    <h3>Для практики</h3>
-</footer>
+@include('inc.footer')
 </body>
 </html>
 
